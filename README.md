@@ -6,7 +6,7 @@ Smart Learning Platform API is a backend learning management system built using 
 
 The primary objective of this project is to learn modern backend development concepts such as API development, request validation, database integration, authentication, authorization, and scalable application architecture.
 
-The project is being developed incrementally, starting with core backend fundamentals and later extending into AI-powered educational features.
+The project is being developed incrementally, starting with core backend fundamentals.
 
 ---
 
@@ -29,15 +29,6 @@ The project is being developed incrementally, starting with core backend fundame
 * Password Validation
 * Response Serialization
 
-### Course Management
-
-* Create Courses
-* View Courses
-
-### Quiz Management
-
-* Create Quizzes
-* View Quizzes
 
 ### Data Validation
 
@@ -106,7 +97,6 @@ smart-learning-platform-api/
 │
 ├── requirements.txt
 ├── learning.db
-├── .gitignore
 └── README.md
 ```
 
@@ -242,29 +232,10 @@ Authorization: Bearer <access_token>
 The project demonstrates several Pydantic validation techniques:
 
 ### Email Validation
-
-Ensures valid email formatting.
-
 ### Password Validation
-
-Current password requirements:
-
-* Minimum 8 characters
-* At least one uppercase letter
-
 ### Field Constraints
-
-Examples:
-
-* Minimum length
-* Maximum length
-* Numeric limits
-
 ### Custom Validators
 
-Implemented using Pydantic field validators to enforce custom business rules.
-
----
 
 ## Learning Objectives
 
@@ -287,83 +258,6 @@ This project is intended to provide hands-on experience with:
 
 ---
 
-## Next Developments
-
-### User & Role Management
-
-* Student and Teacher roles
-* Role-based access control
-* Course ownership
-* User profile management
-* Password reset functionality
-
-### Course Management Enhancements
-
-* Course enrollment system
-* Course categories
-* Course search and filtering
-* Course completion tracking
-* Course progress analytics
-
-### Quiz & Assessment System
-
-* Quiz questions and answers
-* Multiple question types
-* Automatic scoring
-* Quiz submissions
-* Result history
-* Performance tracking
-
-### Learning Analytics
-
-* Student progress dashboards
-* Course completion statistics
-* Quiz performance reports
-* Learning activity tracking
-
-### Platform Improvements
-
-* Pagination
-* Filtering
-* Search functionality
-* Async database operations
-* Centralized exception handling
-* Logging and monitoring
-
-### File Management
-
-* Course material uploads
-* Assignment submissions
-* PDF resource management
-* File validation and storage
-
-### Security Enhancements
-
-* JWT refresh tokens
-* Environment-based configuration
-* Rate limiting
-* Secure password policies
-* API security best practices
-
-### AI-Powered Features
-
-* AI Quiz Generation
-* AI Tutor Assistant
-* Personalized Learning Recommendations
-* AI-Based Answer Evaluation
-* Learning Pattern Analysis
-* Smart Study Plans
-
-### Deployment & Scalability
-
-* PostgreSQL migration
-* Docker support
-* CI/CD pipelines
-* Cloud deployment
-* Redis caching
-* Background task processing
-
----
 
 ## Development Commands
 
